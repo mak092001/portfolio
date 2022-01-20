@@ -76,7 +76,7 @@ body {
 }
 #top_inner4 {
   font-size: 25px;
-  padding: 15px 35px;
+  padding: 25px 35px;
   background-color: rgb(221, 61, 60);
   color: white;
   border: none;
@@ -172,7 +172,7 @@ body {
 .skills button {
   background-color: rgb(221, 61, 60);
   color: white;
-  padding: 10px 30px;
+  padding: 15px 20px;
   border: none;
   width: fit-content;
   font-size: 20px;
@@ -378,11 +378,22 @@ body {
   .navbar_right a {
     margin-top: 10px;
   }
+  /* .fakenavbar_right a {
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
   .fakenavbar_right {
     display: flex;
     flex-direction: column;
-    border: 1px red solid;
-  }
+    position: absolute;
+    top: 100%;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(71, 65, 65);
+  } */
   .navbar_right {
     display: none;
     position: absolute;
