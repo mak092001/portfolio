@@ -353,14 +353,13 @@ body {
   .contact {
     margin: 5vw;
   }
-  .top_right img {
-    width: 700px;
-  }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1199px) {
   .top_right {
     display: none;
   }
+}
+@media (max-width: 1000px) {
   .aboutus_right {
     padding: 30px;
   }
