@@ -369,6 +369,9 @@ body {
   }
 }
 @media (max-width: 800px) {
+  .projectdone {
+    width: 300px;
+  }
   #top_inner4 {
     padding: 15px 10px;
   }
@@ -378,22 +381,6 @@ body {
   .navbar_right a {
     margin-top: 10px;
   }
-  /* .fakenavbar_right a {
-    margin: 10px;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-  }
-  .fakenavbar_right {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    margin: 10px;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(71, 65, 65);
-  } */
   .navbar_right {
     display: none;
     position: absolute;
@@ -401,6 +388,7 @@ body {
     margin-top: 10px;
     width: 100%;
     text-align: center;
+    flex-direction: column;
     background-color: rgb(71, 65, 65);
   }
   .edu h1,
@@ -437,9 +425,9 @@ body {
   .projectdone img {
     height: 200px;
   }
-  .projectdone {
+  /* .projectdone {
     width: fit-content;
-  }
+  } */
   .foot_first img {
     height: 30px;
     width: 30px;
