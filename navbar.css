@@ -39,10 +39,14 @@ body {
   align-items: center;
   position: relative;
 }
+#top_inner4 a {
+  color: white;
+  text-decoration: none;
+}
 .navbar_left a {
   font-size: 40px;
   color: white;
-  text-decoration: line-through;
+  text-decoration: none;
 }
 .navbar_right a {
   margin-right: 20px;
@@ -182,7 +186,7 @@ body {
   width: 100%;
 }
 .skills_left {
-  text-align: justify;
+  text-align: left;
   padding-right: 50px;
   margin-bottom: 50px;
   flex: 50%;
@@ -348,6 +352,9 @@ body {
   .contact {
     margin: 5vw;
   }
+  .top_right img {
+    width: 700px;
+  }
 }
 @media (max-width: 1000px) {
   .top_right {
@@ -362,6 +369,9 @@ body {
   }
 }
 @media (max-width: 800px) {
+  #top_inner4 {
+    padding: 15px 10px;
+  }
   .navbar_hidden {
     display: block;
   }
@@ -441,6 +451,10 @@ body {
 @media (max-width: 600px) {
   .aboutus {
     margin: 0;
+  }
+  .top_inner {
+    top: 30%;
+    transform: translate(-10%, -30%);
   }
 }
 @media (max-width: 350px) {
