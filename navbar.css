@@ -79,7 +79,7 @@ body {
 }
 #top_inner4 {
   font-size: 25px;
-  padding: 25px 35px;
+  padding: 15px 20px;
   background-color: rgb(221, 61, 60);
   color: white;
   border: none;
@@ -194,13 +194,18 @@ body {
   margin-bottom: 50px;
   flex: 50%;
 }
+.aboutus_left {
+  margin-right: 40px;
+}
 .aboutus_left img {
   height: 400px;
   width: 400px;
 }
 .skill,
 .projects {
+  /* background-color: #2e3544; */
   background-color: black;
+
   color: white;
 }
 .container {
@@ -290,7 +295,7 @@ body {
   height: fit-content;
   width: 350px;
   margin: 10px;
-  border: 1px rgb(126, 123, 123) solid;
+  border: 1px rgb(238, 231, 231) solid;
 }
 .blocks img {
   height: 30px;
@@ -311,11 +316,9 @@ body {
 .bl {
   margin-left: 20px;
 }
-.bl p {
-  /* margin-top: 10px; */
-}
 .footer {
   padding: 30px 0 0 0;
+  /* background-color: #2e3544; */
   background-color: black;
 }
 .foot_second {
@@ -375,16 +378,17 @@ body {
   .projectdone {
     width: 300px;
   }
-  #top_inner4 {
-    padding: 15px 10px;
+  .aboutus_left {
+    margin-right: 0;
   }
   .navbar_hidden {
     display: block;
   }
   .navbar_right a {
-    margin-top: 10px;
+    margin: 10px;
   }
   .navbar_right {
+    padding: 15px 0;
     display: none;
     position: absolute;
     top: 100%;
@@ -392,7 +396,9 @@ body {
     width: 100%;
     text-align: center;
     flex-direction: column;
-    background-color: rgb(71, 65, 65);
+    background-color: black;
+    /* box-shadow: 1px 1px 1px white; */
+    border-bottom: 1px white solid;
   }
   .edu h1,
   .contact h1,
